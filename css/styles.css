@@ -10941,8 +10941,14 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 1rem;
+  font-size: 2rem;
 }
+
+#skills {
+  padding-top: 0px; /* ou même 0 si nécessaire */
+  margin-top: 0;
+}
+
 
 section.resume-section {
   display: flex;
@@ -10962,6 +10968,13 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+
+
+.interest-text {
+  font-size: 2rem;
+  line-height: 1.7;
+}
+
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
@@ -10969,4 +10982,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.section-large-text {
+  font-size: 2rem;
+  line-height: 1.8;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
